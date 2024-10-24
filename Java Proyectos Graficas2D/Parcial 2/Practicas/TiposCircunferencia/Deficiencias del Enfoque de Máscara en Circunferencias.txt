@@ -1,0 +1,16 @@
+Deficiencias del Enfoque de Máscara para Circunferencias
+
+1. **Inexactitud Visual**:
+   - Dependiendo del radio de la circunferencia, el patrón de la máscara puede no alinearse perfectamente.
+
+2. **Limitación en el Patrón**:
+   - Los patrones binarios limitan los tipos de estilos de línea que se pueden implementar.
+
+3. **Complejidad del Código**:
+   - El uso de máscaras añade complejidad al código, especialmente cuando se intenta ajustar patrones más complejos.
+
+4. **Efecto Visual en Radios Grandes**:
+   - En circunferencias con radios grandes, la máscara puede generar artefactos visuales debido a los saltos entre puntos.
+
+Recomendaciones:
+- Ajustar el tamaño del patrón de la máscara en función del radio de la circunferencia para mejorar la alineación visual.
