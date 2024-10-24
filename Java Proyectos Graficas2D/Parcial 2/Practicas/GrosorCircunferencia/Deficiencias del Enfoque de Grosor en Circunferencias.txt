@@ -1,0 +1,16 @@
+Deficiencias del Enfoque de Grosor para Circunferencias
+
+1. **Pérdida de Precisión**:
+   - El método de círculos concéntricos puede causar pequeños desajustes en el borde.
+
+2. **Efecto Visual en Radios Pequeños**:
+   - En circunferencias pequeñas, el grosor puede hacer que las líneas se superpongan, afectando la claridad visual.
+
+3. **Complejidad Computacional**:
+   - Dibujar múltiples círculos incrementa la complejidad computacional y puede ser lento para grosores grandes.
+
+4. **Simetría No Perfecta**:
+   - El grosor se distribuye uniformemente alrededor del círculo, lo que puede generar inconsistencias visuales en ciertos radios.
+
+Recomendaciones:
+- Considerar algoritmos más avanzados para distribuir el grosor de manera más precisa.
