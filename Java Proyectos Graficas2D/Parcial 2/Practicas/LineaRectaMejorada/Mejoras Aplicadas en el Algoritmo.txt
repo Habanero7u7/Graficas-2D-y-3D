@@ -1,0 +1,17 @@
+
+Comentarios sobre las Mejoras Implementadas
+
+1. **Corrección de Problemas con Pendientes Altas o Bajas**:
+   - Se añadió un control para verificar si la pendiente es mayor que 1 o menor que -1.
+   - Dependiendo de la pendiente, recorremos las coordenadas 'x' o 'y' para asegurar que la línea sea continua.
+
+2. **Manejo del Orden de los Puntos**:
+   - Se intercambian los puntos inicial y final si 'x0' es mayor que 'x1', asegurando que la línea siempre se dibuje de izquierda a derecha.
+
+3. **Mejora en la Suavidad de la Línea**:
+   - Utilizamos la función `Math.round()` para redondear las coordenadas a enteros y minimizar los errores acumulativos en el trazo.
+
+4. **Eficiencia**:
+   - El enfoque sigue utilizando operaciones en punto flotante, pero el impacto de los errores es mínimo gracias al redondeo.
+
+Con estas mejoras, el programa es capaz de dibujar líneas con cualquier pendiente, independientemente del orden de los puntos. La calidad visual del trazo es consistente y sin huecos visibles entre los píxeles.
