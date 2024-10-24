@@ -1,0 +1,20 @@
+Deficiencias del Programa para Dibujar un Círculo Usando la Ecuación Matemática
+
+1. **Limitaciones del Redondeo**:
+   - La función Math.round() puede introducir errores de redondeo que causan que algunos puntos no se alineen perfectamente, generando discontinuidades en el borde del círculo.
+
+2. **Ineficiencia en la Computación**:
+   - El cálculo de la raíz cuadrada para cada valor de 'x' puede ser costoso en términos de rendimiento.
+
+3. **Falta de Suavidad en el Dibujo**:
+   - La aproximación con puntos enteros puede hacer que el círculo se vea pixelado, especialmente para radios pequeños.
+
+4. **Simetría Limitada**:
+   - Solo se utiliza la simetría vertical. El uso de simetrías adicionales (como en el algoritmo de punto medio para círculos) podría mejorar la eficiencia y precisión.
+
+5. **No Maneja Radios Negativos o Errores de Entrada**:
+   - El programa no verifica si el radio es negativo, lo que podría generar resultados no deseados.
+
+Recomendaciones:
+- Considerar el uso del **algoritmo de punto medio para círculos** para mejorar la precisión y eficiencia.
+- Implementar validaciones para evitar entradas incorrectas (como radios negativos).
