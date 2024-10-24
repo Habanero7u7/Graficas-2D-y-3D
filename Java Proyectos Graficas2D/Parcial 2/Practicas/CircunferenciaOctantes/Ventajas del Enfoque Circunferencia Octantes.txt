@@ -1,0 +1,16 @@
+Ventajas del Enfoque de Coordenadas Polares con Simetría de Ocho Lados
+
+1. **Eficiencia**:
+   - Se aprovecha la simetría de ocho lados para reducir el número de cálculos.
+
+2. **Simplicidad**:
+   - El uso de coordenadas polares facilita el cálculo de los puntos de la circunferencia.
+
+3. **Rendimiento Mejorado**:
+   - Dibujar solo una octava parte y reflejar los puntos en los demás octantes reduce el tiempo de ejecución.
+
+4. **Precisión**:
+   - La precisión es alta debido a la naturaleza matemática de las coordenadas polares y su redondeo cuidadoso.
+
+Recomendaciones:
+- Este enfoque es ideal para aplicaciones donde se requiera rapidez y precisión en el dibujo de círculos.
