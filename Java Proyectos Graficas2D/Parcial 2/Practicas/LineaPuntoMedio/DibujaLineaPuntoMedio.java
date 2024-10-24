@@ -1,13 +1,10 @@
 import java.awt.Color;
-import java.awt.Graphics;
 import java.awt.image.BufferedImage;
 
 import javax.swing.JFrame;
 
 public class DibujaLineaPuntoMedio extends JFrame {
     private BufferedImage buffer;
-    private Graphics graPixel;
-
     public DibujaLineaPuntoMedio() {
         // Configuración de la ventana
         setTitle("Dibujo de Línea con Algoritmo de Punto Medio");
@@ -18,7 +15,7 @@ public class DibujaLineaPuntoMedio extends JFrame {
 
         // Inicialización del buffer para dibujar un pixel
         buffer = new BufferedImage(1, 1, BufferedImage.TYPE_INT_RGB);
-        graPixel = buffer.getGraphics();
+        buffer.getGraphics();
     }
 
     public void putPixel(int x, int y, Color c) {

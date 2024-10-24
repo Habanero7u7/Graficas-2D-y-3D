@@ -1,13 +1,10 @@
 import java.awt.Color;
-import java.awt.Graphics;
 import java.awt.image.BufferedImage;
 
 import javax.swing.JFrame;
 
 public class DibujaLineaDDA extends JFrame {
     private BufferedImage buffer;
-    private Graphics graPixel;
-
     public DibujaLineaDDA() {
         // Configuración de la ventana
         setTitle("Dibujo de Línea Recta con DDA");
@@ -18,7 +15,7 @@ public class DibujaLineaDDA extends JFrame {
 
         // Inicialización del buffer para dibujar un pixel
         buffer = new BufferedImage(1, 1, BufferedImage.TYPE_INT_RGB);
-        graPixel = buffer.getGraphics();
+        buffer.getGraphics();
     }
 
     public void putPixel(int x, int y, Color c) {
