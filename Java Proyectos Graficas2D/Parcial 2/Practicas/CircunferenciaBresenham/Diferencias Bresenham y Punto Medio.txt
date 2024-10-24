@@ -1,0 +1,18 @@
+1. **Función de Decisión**:
+   - Bresenham: Utiliza una función de decisión que depende de un valor inicial distinto y se ajusta con incrementos más simples.
+   - Punto Medio: La función de decisión es más sencilla al principio, pero se complica al ajustar los valores de x e y.
+
+2. **Uso de Aritmética Entera**:
+   - Ambos algoritmos usan operaciones aritméticas enteras, pero Bresenham es más eficiente debido a sus cálculos más simples.
+
+3. **Eficiencia**:
+   - Bresenham tiende a ser más rápido debido a la menor cantidad de comparaciones y cálculos necesarios por iteración.
+
+4. **Precisión**:
+   - Ambos algoritmos son precisos, pero Bresenham tiende a ser más confiable en hardware más limitado.
+
+5. **Aplicación**:
+   - Bresenham es más utilizado en aplicaciones donde se necesita mayor velocidad, mientras que el algoritmo de punto medio es preferido por su simplicidad conceptual.
+
+Recomendaciones:
+- Utilizar el algoritmo de Bresenham para aplicaciones que requieran alta eficiencia y rendimiento.
