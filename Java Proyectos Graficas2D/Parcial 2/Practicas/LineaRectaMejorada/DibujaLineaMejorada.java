@@ -3,9 +3,9 @@ import java.awt.image.BufferedImage;
 
 import javax.swing.JFrame;
 
-public class DibujaLinea extends JFrame {
+public class DibujaLineaMejorada extends JFrame {
     private BufferedImage buffer;
-    public DibujaLinea() {
+    public DibujaLineaMejorada() {
         // Configuración de la ventana
         setTitle("Dibujo de Línea Recta Mejorada");
         setSize(800, 600);
@@ -58,7 +58,7 @@ public class DibujaLinea extends JFrame {
     }
 
     public static void main(String[] args) {
-        DibujaLinea ventana = new DibujaLinea();
+        DibujaLineaMejorada ventana = new DibujaLineaMejorada();
         ventana.dibujarLinea(100, 100, 500, 400);  // Línea diagonal
     }
 }
