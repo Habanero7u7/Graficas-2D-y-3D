@@ -1,0 +1,14 @@
+
+Comentarios sobre las Deficiencias del Programa para Dibujar Líneas
+
+1. **Problemas con Pendientes Altas o Bajas**:
+   - Si la pendiente de la línea es muy pronunciada (m > 1 o m < -1), algunos píxeles pueden no conectarse de forma continua, dejando espacios entre ellos.
+
+3. **Líneas No Suaves**:
+   - En ciertas combinaciones de pendiente y longitud, la línea puede no parecer visualmente suave, lo que puede afectar su calidad percibida.
+
+4. **Dependencia del Orden de Puntos**:
+   - El programa asume que el punto inicial 'x0' es menor que 'x1'. Si los puntos están invertidos, la línea no se dibujará correctamente sin invertir el recorrido del bucle.
+
+Recomendaciones:
+- Invertir el recorrido del bucle si `x0 > x1` para evitar errores en el dibujo.
