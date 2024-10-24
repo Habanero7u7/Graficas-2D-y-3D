@@ -1,0 +1,17 @@
+Deficiencias del Programa para Dibujar un Círculo Usando Coordenadas Polares
+
+1. **Errores de Redondeo**:
+   - El uso de Math.round() puede causar pequeños errores de redondeo, dejando algunos píxeles mal alineados.
+
+2. **Ineficiencia**:
+   - El uso de funciones trigonométricas (sin y cos) para cada punto es computacionalmente costoso.
+
+3. **Desfase Angular**:
+   - Si el paso angular no es lo suficientemente pequeño, el círculo puede parecer irregular o incompleto.
+
+4. **Pixelado**:
+   - Debido a que estamos trabajando con coordenadas discretas, algunos píxeles pueden quedar separados, haciendo que el borde del círculo se vea pixelado.
+
+Recomendaciones:
+- Considerar un paso angular más pequeño para mejorar la suavidad del círculo.
+- Para una mayor eficiencia, utilizar algoritmos alternativos como el de punto medio para círculos.
