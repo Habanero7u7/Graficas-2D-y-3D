@@ -1,0 +1,15 @@
+Diferencias entre el Algoritmo de Bresenham y el Algoritmo de Punto Medio
+
+1. Cálculo de la Decisión:
+   - Bresenham: Utiliza un valor de error acumulado para decidir cuándo ajustar la posición del punto.
+   - Punto Medio: Determina la posición del siguiente punto evaluando el punto medio entre dos coordenadas.
+
+2. Complejidad:
+   - Ambos utilizan aritmética entera, pero el algoritmo de punto medio es conceptualmente más sencillo.
+
+3. Aplicación:
+   - Bresenham: Se adapta para dibujar líneas, circunferencias y curvas.
+   - Punto Medio: Principalmente se usa para líneas rectas, y sus variantes se aplican a curvas.
+
+4. Precisión y Rendimiento:
+   - Ambos algoritmos son precisos y evitan operaciones en punto flotante, garantizando buen rendimiento.
