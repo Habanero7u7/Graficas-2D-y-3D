@@ -14,8 +14,7 @@ public class Cubo3DProyeccionParalela extends JFrame {
     private int size = 150;     // Tamaño del cubo
     private int offsetX = 120;  // Desplazamiento en X
     private int offsetY = 120;  // Desplazamiento en Y
-    private int d = 25;         // Distancia de proyección
-
+    
     public Cubo3DProyeccionParalela() {
         setTitle("Cubo 3D con Proyección Paralela");
         setSize(500, 500);
