@@ -59,6 +59,6 @@ public class DibujaLineaMejorada extends JFrame {
 
     public static void main(String[] args) {
         DibujaLineaMejorada ventana = new DibujaLineaMejorada();
-        ventana.dibujarLinea(100, 100, 500, 400);  // Línea diagonal
+        ventana.dibujarLinea(400, 400, 100, 200);  // Línea diagonal
     }
 }

@@ -32,14 +32,6 @@ public class DibujaCirculo extends JFrame {
             putPixel(xc + x, yc - y, Color.BLACK);  // Dibuja el punto en la parte inferior
         }
 
-        // Dibujar los puntos restantes en los ejes para completar el círculo
-        for (int y = -radio; y <= radio; y++) {
-            int x = (int) Math.round(Math.sqrt(radio * radio - y * y));
-
-            // Dibujar los puntos del círculo usando la simetría horizontal
-            putPixel(xc + x, yc + y, Color.BLACK);  // Parte derecha
-            putPixel(xc - x, yc + y, Color.BLACK);  // Parte izquierda
-        }
     }
 
     public static void main(String[] args) {
